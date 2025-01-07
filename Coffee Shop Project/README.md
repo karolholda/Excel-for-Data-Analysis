@@ -9,6 +9,9 @@ This project focuses on analyzing sales data for a coffee shop between 2019 and 
 ### Key Objectives:
 - **Identify the top 5 most loyal customers** their purchasing behavior.
 - **Analyze sales distribution by country** to understand regional preferences.
+- **Evaluate coffee consumption patter** based on strength, size, and customer preferences.
+- **Understand the impact of loyalty cards** based on strength, size, and customer preferences.
+- - **Create a dynamic timeline slider** to visualize sales trends over time.
 
 ## 📅 Data Overview
 
