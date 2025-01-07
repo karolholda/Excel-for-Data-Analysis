@@ -1,4 +1,4 @@
-# Savory Bites Sales Analysis 2022-2023
+# Coffee Shop Sales Analysis 2019 - 2022
 
 ![Dashboard Overview](https://github.com/SnajperHS/Restaurant-Sales-Insights/blob/main/Assets/Dashboard.PNG?raw=true)
 
