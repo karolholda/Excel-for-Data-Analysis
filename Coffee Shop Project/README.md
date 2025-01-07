@@ -53,32 +53,40 @@ The dataset included detailed sales transaction data with the following fields:
 - **Pie Charts** Illustrated sales by coffee strength and size.
 
 **Inserted slicers and a timeline slider to allow for dynamic filtering and analysis.**
-
+------------------------------------------------
 ## 📈 Dashboard Insights
 
-The interactive dashboard provides a detailed breakdown of the sales performance of **Savory Bites**:
+The final dashboard provided the following insights:
 
-- **Monthly Sales Analysis**: Tracks sales trends over time, with the highest sales occurring in July and December.
-- **Revenue from Each Product**: Sandwiches and Frankies were the top-performing items, generating the most revenue.
-- **Sales by Payment Method**: The majority of transactions were completed using cash (48%), followed by online payments (40%).
-- **Sales by Time of Day**: Night-time sales were the highest (23%), indicating the busiest period for the restaurant.
-- **Average Order Value**: The highest average order value came from sandwich orders, with other fast food items following closely.
+1. **Top Customers**: Identified the top 5 most frequent and high-spending customers, enabling targeted loyalty initiatives.
+2. **Regional Sales**: Highlighted country-level sales distribution for regional strategy optimization.
+3. **Coffee Preferences**: Showed trends in coffee strength and size preferences, helping refine product offerings.
+4. **Loyalty Program Impact**: Demonstrated a 15% higher average spend among loyalty card users.
+5. **Sales Trends**: Enabled time-based analysis with an interactive timeline slider.
 
 ## 🧹 Data Cleaning Story
 
-The original dataset from **Kaggle** was far from perfect and required significant preprocessing before any meaningful analysis could be performed. One of the biggest challenges was dealing with inconsistent and incomplete data:
+The dataset required extensive cleaning to ensure accuracy and usability. Here’s how I approached the challenges:
 
-1. **Date Format Issues**: Dates were provided in multiple formats, which made time-series analysis difficult. Some dates were in "MM/DD/YYYY" format, while others were in "DD-MM-YYYY", and even text representations like "July 23rd". I had to standardize all date formats using Excel’s `DATEVALUE` function to ensure consistency.
+1. **Date Formatting Issues**  
+   - Dates were provided in inconsistent formats (`MM/DD/YYYY`, `DD-MM-YYYY`, and text like "July 23rd"). 
+   - Used Excel’s `DATEVALUE` and `TEXT` functions to standardize all dates to a single format, making them usable for time-series analysis.
 
-2. **Missing Payment Methods**: A large portion of transactions lacked information about the payment method. To resolve this, I analyzed patterns within the existing data. For example, larger transaction amounts were often paid via online payment, so I imputed missing values based on these patterns. I also filled in missing values using the most common payment method for certain time periods and products.
+2. **Duplicates and Inconsistencies**  
+   - Detected and removed duplicate entries using Excel’s `Remove Duplicates` feature.
+   - Corrected product name inconsistencies (e.g., "Large Coffee" vs. "Coffee Large") using a combination of `VLOOKUP` and manual review.
 
-3. **Product Name Inconsistencies**: Product names were entered inconsistently (e.g., "Sugar Cane Juice" vs. "Sugarcane juice"). These inconsistencies were corrected through manual review and the use of `VLOOKUP` to standardize names.
+3. **Missing Values in Payment Method**  
+   - Many transactions had missing payment type information. 
+   - Filled missing values using logical patterns, such as assuming "Online" for large transactions and imputing the most frequent payment method for smaller ones.
 
-These steps ensured the dataset was reliable for analysis and helped generate more accurate insights into customer behavior and sales performance.
+4. **Data Validation**  
+   - Applied data validation rules to ensure all future entries adhered to consistent formats, particularly for product names and payment methods.
 
 ## 🌟 Key Findings
 
-- **Top Products**: Sandwiches and Frankies were the most popular and generated the highest revenue.
-- **Payment Method Preferences**: A large percentage of customers preferred to pay with cash, followed by online payments.
-- **Peak Hours**: The night period (20:00-23:00) had the highest sales, indicating that this is the busiest time for the restaurant.
-- **Seasonality**: Sales peaked in July and December, which could inform future inventory and staffing decisions.
+- **Popular Products**: Strong and medium-strength coffees in larger sizes were the most purchased.
+- **Regional Trends**: Sales peaked in countries with colder climates, indicating seasonal consumption patterns.
+- **Loyalty Success**: Customers with loyalty cards showed increased purchasing frequency and higher average spend.
+- **Seasonality**: December and July consistently had the highest sales, suggesting opportunities for targeted promotions.
+- **Dynamic Insights**: The timeline slider revealed clear growth patterns and peak periods.
