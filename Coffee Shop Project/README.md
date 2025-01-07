@@ -1,6 +1,6 @@
 # Coffee Shop Sales Analysis 2019 - 2022
 
-![Dashboard Overview](https://github.com/SnajperHS/Restaurant-Sales-Insights/blob/main/Assets/Dashboard.PNG?raw=true)
+![Dashboard Overview](https://github.com/karolholda/Excel-for-Data-Analysis/blob/main/Coffee%20Shop%20Project/assets/csd1.jpg)
 
 ## 📊 Project Overview
 
@@ -14,7 +14,7 @@ This project focuses on analyzing sales data for the fictional restaurant **Savo
 
 ## 📅 Data Overview
 
-![Data Table](https://github.com/SnajperHS/Restaurant-Sales-Insights/blob/main/Assets/Data.PNG?raw=true)
+![Data Table](https://github.com/karolholda/Excel-for-Data-Analysis/blob/main/Coffee%20Shop%20Project/assets/csd2.jpg)
 
 The dataset consists of detailed records of sales transactions, including:
 - **Order Date**: The date on which the order was placed, but this field contained multiple formatting errors that had to be corrected.
