@@ -11,7 +11,7 @@ This project focuses on analyzing sales data for a coffee shop between 2019 and 
 - **Analyze sales distribution by country** to understand regional preferences.
 - **Evaluate coffee consumption patter** based on strength, size, and customer preferences.
 - **Understand the impact of loyalty cards** based on strength, size, and customer preferences.
-- - **Create a dynamic timeline slider** to visualize sales trends over time.
+- **Create a dynamic timeline slider** to visualize sales trends over time.
 
 ## 📅 Data Overview
 
@@ -41,16 +41,18 @@ The dataset included detailed sales transaction data with the following fields:
   
 **3. Data Transformation**
 
-Converted raw datasets into structured tables.
-Designed and formatted tables for clear presentation and analysis.
-Built pivot tables to summarize sales data by product, customer, and region.
-Visualizations and Dashboard Creation
+- **Converted raw datasets** into structured tables.
+- **Designed and formatted tables** for clear presentation and analysis.
+- **Built pivot tables** to summarize sales data by product, customer, and region.
+  
+**Visualizations and Dashboard Creation**
 
-Designed charts to represent sales trends, product popularity, and customer behavior:
-Line Charts: Visualized sales trends over time.
-Bar Charts: Displayed revenue by product type and region.
-Pie Charts: Illustrated sales by coffee strength and size.
-Inserted slicers and a timeline slider to allow for dynamic filtering and analysis.
+- **Designed charts** to represent sales trends, product popularity, and customer behavior:
+- **Line Charts** Visualized sales trends over time.
+- **Bar Charts** Displayed revenue by product type and region.
+- **Pie Charts** Illustrated sales by coffee strength and size.
+
+**Inserted slicers and a timeline slider to allow for dynamic filtering and analysis.**
 
 ## 📈 Dashboard Insights
 
