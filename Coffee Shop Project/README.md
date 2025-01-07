@@ -17,29 +17,40 @@ This project focuses on analyzing sales data for a coffee shop between 2019 and 
 
 ![Data Table](https://github.com/karolholda/Excel-for-Data-Analysis/blob/main/Coffee%20Shop%20Project/assets/csd2.jpg)
 
-The dataset consists of detailed records of sales transactions, including:
-- **Order Date**: The date on which the order was placed, but this field contained multiple formatting errors that had to be corrected.
-- **Item Name**: The specific product purchased.
-- **Item Type**: Categorizes items into "Fastfood" or "Beverages".
-- **Quantity**: Number of items purchased in a transaction.
-- **Transaction Amount**: The total cost of the transaction.
-- **Transaction Type**: The method of payment (Cash, Online, Other). This column had numerous missing or unclear values, requiring manual review and imputation.
-- **Received By**: Whether the transaction was handled by Mr. or Mrs.
-- **Time of Sale**: Categorized into Morning, Afternoon, Evening, Night, or Midnight.
+The dataset included detailed sales transaction data with the following fields:
+- **Order Date** Dates of customer purchases, which were standardized for analysis.
+- **Product Details** Coffee strength, size, and additional product features.
+- **Quantity** Number of items sold per transaction.
+- **Transaction Value** Total value of the order.
+- **Loyalty Card** Indication of whether a loyalty card was used.
+- **Location Data** Country information for regional analysis.
 
 ## 🛠 Tools Used
 
-- **Microsoft Excel**: Used for data cleaning, preprocessing, and analysis.
-  - **Data Cleaning**: The dataset required extensive cleaning, especially in the date and transaction type columns:
-    - **Date Issues**: Dates were entered in multiple formats, making it difficult to perform time-based analysis. I used Excel’s `TEXT` and `DATEVALUE` functions to standardize all date formats.
-    - **Missing Payment Methods**: Many rows lacked transaction type information (Cash, Online, Other). I applied a combination of `IF` and `VLOOKUP` functions to fill in missing values based on patterns in the data, such as assuming "Online" for large orders or filling missing values based on the frequency of similar transactions.
-    - **Duplicates and Inconsistencies**: The data had duplicate entries, which were removed using Excel’s `REMOVE DUPLICATES` tool, and inconsistencies in product names that were corrected with `VLOOKUP` and manual review.
-  - **Advanced Functions**: Formulas such as `SUMIFS`, `VLOOKUP`, and `IFERROR` were used to aggregate and correct data.
-- **Pivot Tables**: Employed to summarize sales data by product, time of sale, and transaction type.
-- **Charts and Visualizations**: A variety of charts were used to visualize sales trends, product popularity, and customer behavior:
-  - **Line Charts**: For monthly sales analysis.
-  - **Bar Charts**: To display revenue per product and the number of items sold.
-  - **Pie Charts**: To show sales distribution by payment method and time of day.
+**1. Data Cleaning and Preparation:**
+
+- **Standardized date format**s using TEXT and DATEVALUE functions.
+- **Removed duplicate** transactions using Excel's built-in tools.
+- **Corrected inconsistencies** in product names and formatted fields for clarity.
+  
+**2. Formulas and Calculations**
+
+- **Utilized INDEX MATCH and XLOOKUP** to merge and retrieve data efficiently.
+- **Applied advanced formulas**, such as SUMIFS and IFERROR, to aggregate data and handle missing values.
+- **Used multiplication formulas** to calculate total sales values.
+  
+**3. Data Transformation**
+
+Converted raw datasets into structured tables.
+Designed and formatted tables for clear presentation and analysis.
+Built pivot tables to summarize sales data by product, customer, and region.
+Visualizations and Dashboard Creation
+
+Designed charts to represent sales trends, product popularity, and customer behavior:
+Line Charts: Visualized sales trends over time.
+Bar Charts: Displayed revenue by product type and region.
+Pie Charts: Illustrated sales by coffee strength and size.
+Inserted slicers and a timeline slider to allow for dynamic filtering and analysis.
 
 ## 📈 Dashboard Insights
 
