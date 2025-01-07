@@ -4,13 +4,11 @@
 
 ## 📊 Project Overview
 
-This project focuses on analyzing sales data for the fictional restaurant **Savory Bites** in 2023. The dataset was sourced from **Kaggle**, a well-known platform for open datasets, which provides free access to a variety of data for analysis and projects. However, the dataset required significant preprocessing to make it usable, as there were multiple issues with missing values and inconsistent formats, particularly in the dates and payment methods.
+This project focuses on analyzing sales data for a coffee shop between 2019 and 2022. The goal was to extract actionable insights to better understand customer behavior, optimize product offerings, and improve operational efficiency. The dataset required extensive preprocessing, including handling duplicates, standardizing date formats, and ensuring data integrity for meaningful analysis.
 
 ### Key Objectives:
-- **Identify the best-selling products** to maximize profits.
-- **Analyze sales trends by month** to plan inventory and staffing.
-- **Understand customer purchase behavior**, including payment methods and times of purchase.
-- **Forecast sales and profits** to guide future business decisions.
+- **Identify the top 5 most loyal customers** their purchasing behavior.
+- **Analyze sales distribution by country** to understand regional preferences.
 
 ## 📅 Data Overview
 
